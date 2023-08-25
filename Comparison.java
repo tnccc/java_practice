@@ -9,6 +9,8 @@ class Comparison {
       System.out.println("大きいのは" + a + "です");
     } else if (a < b) {
       System.out.println("大きいのは" + b + "です");
+    } else {
+      System.out.println("同じです");
     }
   }
 }
