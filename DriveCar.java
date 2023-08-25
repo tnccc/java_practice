@@ -1,12 +1,12 @@
 class DriveCar {
   public static void main(String[] args) {
-    Car c1 = new Car();
+    Car1 c1 = new Car1();
 
-    c1.setValue("no", 2525);
-    c1.setValue("speed", 30);
+    c1.setNo(2525);
+    c1.run(30);
     c1.display();
 
-    c1.stop();
+    c1.brake(10);
     c1.display();
   }
 }
